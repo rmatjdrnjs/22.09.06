@@ -1,9 +1,14 @@
 #include<stdio.h>
 
 int main() {
-	for (int i= 0; i < 5; i++) {
+
+	int input = 0;
+
+	scanf_s("%d", &input);
+	for (int i= 0; i < input; i++) {
 		printf("*");
 
-		return 0;
+		
 	}
+	return 0;
 }
