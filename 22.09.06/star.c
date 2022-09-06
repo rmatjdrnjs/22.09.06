@@ -1,14 +1,52 @@
 #include<stdio.h>
 
-int main() {
+int main(void) {
 
-	int input = 0;
+	int a, b, c;
+	int num; 
+	printf("¼ıÀÚ:");
+	scanf_s("%d", &num);
 
-	scanf_s("%d", &input);
-	for (int i= 0; i < input; i++) {
-		printf("**");
+	for (a = 0; a < num; a++) {
+		for (b = a; b < num; b++) { 
+			printf("*");
+		}
+		for (c = 0; c < (2 * a) / 2; c++) {
+			printf(" ");
+		}
 
-		
+		for (c = 0; c < (2 * a) / 2; c++) {
+			printf(" ");
+		}
+		for (b = a; b < num; b++) {
+			printf("*");
+		}
+		printf("\n");
+
 	}
+
+	for (a = 0; a < num; a++) {
+		for (b = 0; b <= (2 * a) / 2; b++) { 
+			printf("*");
+		}
+		for (c = a; c < num - 1; c++) {
+			printf(" ");
+		}
+
+		for (c = a; c < num - 1; c++) {
+			printf(" ");
+		}
+		for (b = 0; b <= (2 * a) / 2; b++) {
+			printf("*");
+		}
+
+		printf("\n");
+
+
+
+
+
+	}
+
 	return 0;
 }
