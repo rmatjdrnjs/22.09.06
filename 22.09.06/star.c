@@ -11,11 +11,11 @@ int main(void) {
 		for (b = a; b < num; b++) { 
 			printf("*");
 		}
-		for (c = 0; c < (2 * a) / 2; c++) {
+		for (c = 0; c < a; c++) {
 			printf(" ");
 		}
 
-		for (c = 0; c < (2 * a) / 2; c++) {
+		for (c = 0; c < a; c++) {
 			printf(" ");
 		}
 		for (b = a; b < num; b++) {
@@ -26,7 +26,7 @@ int main(void) {
 	}
 
 	for (a = 0; a < num; a++) {
-		for (b = 0; b <= (2 * a) / 2; b++) { 
+		for (b = 0; b <= a; b++) { 
 			printf("*");
 		}
 		for (c = a; c < num - 1; c++) {
@@ -36,7 +36,7 @@ int main(void) {
 		for (c = a; c < num - 1; c++) {
 			printf(" ");
 		}
-		for (b = 0; b <= (2 * a) / 2; b++) {
+		for (b = 0; b <= a; b++) {
 			printf("*");
 		}
 
