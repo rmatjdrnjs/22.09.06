@@ -6,7 +6,7 @@ int main() {
 
 	scanf_s("%d", &input);
 	for (int i= 0; i < input; i++) {
-		printf("*");
+		printf("**");
 
 		
 	}
